@@ -1,4 +1,4 @@
-ṇfun main() {
+fun main() {
     // 1
     for (i in 1..5) {
         // 2
@@ -8,7 +8,7 @@
             // 4
             print(" ")
         }
-        // 5
+        // 
         val numberOfStars = 6 - i
 
         // 6
