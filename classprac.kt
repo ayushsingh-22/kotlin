@@ -25,4 +25,6 @@ fun main() {
 
     var lion = Animal("lion", "royal bengal tiger", "yellow", "wild")
     lion.print_data()
+
+    var funny = Animal(25)
 }
