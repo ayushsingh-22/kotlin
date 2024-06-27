@@ -27,4 +27,13 @@ fun main() {
     lion.print_data()
 
     var funny = Animal(25)
+    
+    var ad = add("Ram", " Ka Kaam")
+}
+
+
+
+fun add (army: String, navy: String)
+{
+    print(army+navy)
 }
