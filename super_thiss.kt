@@ -1,6 +1,8 @@
 fun main()
 {
-    println(human().whole_structure())
+    println("Human character --> " + human().whole_structure())
+    println("Animal character --> " + animal().whole_structure())
+
 }
 
 open class structure
@@ -31,7 +33,7 @@ class human : structure(){
 class animal : structure(){
 
     override fun whole_structure(): String {
-        var face ="Human have diffrent facial structure"
-        return face
+        var wild ="More dangerious than all other species"
+        return wild
     }
 }
