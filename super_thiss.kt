@@ -18,8 +18,9 @@ open class structure
     }
 
     open fun whole_structure(): String {
-            return ""
-    }
+            var printt = ("We are in structure class")
+            return printt
+        }
 }
 
 class human : structure(){
@@ -33,6 +34,7 @@ class human : structure(){
 class animal : structure(){
 
     override fun whole_structure(): String {
+        println(super.whole_structure())
         var wild ="More dangerious than all other species"
         return wild
     }
